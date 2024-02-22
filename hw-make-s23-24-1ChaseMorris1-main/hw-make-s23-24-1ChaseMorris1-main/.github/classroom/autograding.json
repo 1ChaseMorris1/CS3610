@@ -1,0 +1,114 @@
+{
+    "tests": [
+        {
+            "name": "sandstorm - active",
+            "setup": "",
+            "run": "cd sandstorm && python scripts/grade.py active",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 12.5
+        },
+        {
+            "name": "sandstorm - inactive",
+            "setup": "",
+            "run": "cd sandstorm && python scripts/grade.py inactive",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 12.5
+        },
+        {
+            "name": "odd-or-even-makefile - even - seed 1",
+            "setup": "",
+            "run": "cd odd-or-even-makefile && python scripts/grade.py even",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 6.25
+        },
+        {
+            "name": "odd-or-even-makefile - even - seed 2",
+            "setup": "",
+            "run": "cd odd-or-even-makefile && python scripts/grade.py even",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 6.25
+        },
+        {
+            "name": "odd-or-even-makefile - odd - seed 1",
+            "setup": "",
+            "run": "cd odd-or-even-makefile && python scripts/grade.py odd",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 6.25
+        },
+        {
+            "name": "odd-or-even-makefile - odd - seed 2",
+            "setup": "",
+            "run": "cd odd-or-even-makefile && python scripts/grade.py odd",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 6.25
+        },
+        {
+            "name": "broken-shell",
+            "setup": "",
+            "run": "cd broken-shell && python scripts/grade.py",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 25
+        },
+        {
+            "name": "simple-project - all",
+            "setup": "",
+            "run": "cd simple-project && python scripts/grade.py -k all",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 6.25
+        },
+        {
+            "name": "simple-project - build",
+            "setup": "",
+            "run": "cd simple-project && python scripts/grade.py -k build",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 6.25
+        },
+        {
+            "name": "simple-project - sdist",
+            "setup": "",
+            "run": "cd simple-project && python scripts/grade.py -k sdist",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 6.25
+        },
+        {
+            "name": "simple-project - clean",
+            "setup": "",
+            "run": "cd simple-project && python scripts/grade.py -k clean",
+            "input": "",
+            "output": "",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 6.25
+        }
+    ]
+}

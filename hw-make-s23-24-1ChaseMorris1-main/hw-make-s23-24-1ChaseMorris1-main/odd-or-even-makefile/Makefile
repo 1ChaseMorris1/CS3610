@@ -1,0 +1,3 @@
+.PHONY: ItIsSurelyOdd
+
+ItIsSurelyOdd:
